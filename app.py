@@ -8,7 +8,7 @@ model = pd.read_pickle('piperf.pkl')
 
 
 st.title('Sales Profit predictioon')
-st.header("choose what suits best")
+st.header("Welcome to the Sales Profit Prediction App")
 
 Discount = st.slider("discount in %:", min_value=0, max_value=100, value=20, step=1)
 Sales = st.slider("total Sales:", min_value=0, max_value=10000, value=20, step=5)
